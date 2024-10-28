@@ -1,0 +1,30 @@
+ [
+    {
+      "id": "1_bebidas",
+      "quantidade":"1",
+      "nome":"Coca-cola lata",
+      "valor":"7,00",
+      "image":"/images/cocalata.png"
+    },
+    {
+      "id": "2_bebidas",
+      "quantidade": "1",
+      "nome":"Coca-cola 2 litros",
+      "valor":"15,00",
+      "image":"/images/coca2l.png"
+    },
+    {
+      "id": "3_bebidas",
+      "quantidade": "1",
+      "nome":"Guaraná lata",
+      "valor":"5,00",
+      "image":"/images/GuaranaLata.png"
+    },
+    {
+      "id": "4_bebidas",
+      "quantidade": "1",
+      "nome":"Fanta uva lata",
+      "valor":"6,00",
+      "image":"/images/fanta2.png"
+    }
+  ]

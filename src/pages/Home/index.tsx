@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import burguer1 from '../../images/burguer1.jpg'
 import burguer2 from '../../images/burguer2.jpg'
-import burguer from '../../images/burguer.jpg'
+import burguer from '/images/burguer.jpg'
 import Topo from '../../components/Topo'
 import Component from './style'
 import Menu from '../../components/Menu'
@@ -11,34 +11,16 @@ import { MdFastfood } from "react-icons/md";
 import './style';
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import { addDoc, collection, doc, getDoc, getDocs, onSnapshot, orderBy, query, setDoc, where } from 'firebase/firestore'
+import { db } from '../../firebaseConnection'
+import data from '../../data.json'
+import { runTransaction } from "firebase/firestore";
 
-const data = [
-  {
-    id:1,
-    image:burguer1,
-    valor:'10.00',
-  },
-  {
-    id:2,
-    image:burguer2,
-    valor:'10.00',
-  },
-  {
-    id:3,
-    image:burguer,
-    valor:'10.00',
-  },
-  {
-    id:4,
-    image:burguer1,
-    valor:'10.00',
-  }
-]
 
 type Props = {
 }
 const index = (props: Props) => {
-
+ const [burguers, setBurguers] = React.useState<any[]>([])
 
  
   const settings:SliderProps = {
@@ -47,8 +29,31 @@ const index = (props: Props) => {
     navigation:true,
   }
 
-  
 
+
+  async function createBurguer(burguerData:any) {
+    try{
+      const produtosRef = doc(db, 'produtos', burguerData.id);  // Definindo o id manualmente
+      const docSnapshot = await getDoc(produtosRef);
+      if (!docSnapshot.exists()) {
+        await setDoc(produtosRef, burguerData);
+        console.log('burguer criado com sucesso!', burguerData.id);
+      } else {
+        console.log('burguer já existe');
+      }
+  
+    }catch(err){
+      console.log("erro ao adicionar hamburguer",err)
+    }
+  }
+  useEffect(() => {
+     data.forEach(async (burguer) => {
+    await createBurguer(burguer);  // Chamada da função
+  });
+  }, [])
+ 
+
+  
   return (
     <Component>
       <Topo/>
@@ -72,6 +77,7 @@ const index = (props: Props) => {
         <p>Nossos burguers tem a opção de combos</p>
         <button className='btn-combo'><Link to={'/combos'} >Conheça</Link></button>
       </div>
+
       <Rodape/>
     </Component>
   )

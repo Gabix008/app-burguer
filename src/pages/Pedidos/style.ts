@@ -34,12 +34,11 @@ h1{
     gap: 10px;
 }
 .text-content h4 {
-    margin-top: 10%;
+    margin-top: 2%;
     font-size: 24px; 
     text-transform: uppercase;
     /* color:  #F9AF42; */
-    text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 .btn-burguer{
     margin-top: 5%;
@@ -47,11 +46,12 @@ h1{
 }
 
 h3{
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 h2{
     color: #F9AF42;
+    margin-bottom: 35px;
 }
 
 .btn-burguer{
@@ -72,7 +72,7 @@ h2{
     justify-content: center;
 }
 img{
-    width: 250px;
+    width: 300px;
     margin: 15px;
     border-radius: 10px;
 }
@@ -83,6 +83,89 @@ hr{
 }
 hr:last-child{
     border:none; 
+}
+
+.btn-trash{
+    background-color: #FF3131;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sem-pedidos{
+    margin-top: 10%;
+    color: #F9AF42;
+}
+.trash{
+    color: #fff;
+}
+
+/* .btn{
+    background-color: #F9AF42;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+} */
+/* .quantidade{
+    width: 29px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    border: 1px solid #cecece;
+    border-radius: 2px;
+} */
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.quantidade {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #F9AF42;
+  color: #fff;
+  font-size: 16px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.btn-finalizar{
+    margin-bottom: 2%;
+    background-color: #F9AF42;
+    width: 8vw;
+    border: none;
+    height: 35px;
+    border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+
+    align-items: center;
+    margin-top: 15px;
+    color: #000;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 46%;
 }
 `
 export default Component

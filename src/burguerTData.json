@@ -1,0 +1,38 @@
+ [
+    {
+      "nome": " Double Empire",
+      "quantidade":"1",
+      "id": "1_burguerT",
+      "valor":"45,00",
+      "descricao":"Um suculento patty de carne bovina, coberto com uma fatia generosa de queijo cheddar, alface fresca, tomate maduro e um molho especial que traz um toque de sabor inigualável. ",
+      "acompanhamentos": "Acompanha Batatas fritas e uma coca-cola lata",
+      "image":"/images/burguer2.jpg"
+    },
+    {
+      "nome":"Super delicia",
+      "quantidade":"1",
+      "id": "2_burguerT",
+      "valor":"45,00",
+      "descricao":"Um suculento patty de carne bovina, coberto com uma fatia generosa de queijo cheddar, alface fresca, tomate maduro e um molho especial que traz um toque de sabor inigualável. ",
+      "acompanhamentos": " Acompanha Chips e um guaraná lata ",
+      "image":"/images/burguer2.jpg"
+    },
+    {
+      "nome":"  Sabor especial",
+      "quantidade":"1",
+      "id": "3_burguerT",
+      "valor":"45,00",
+      "descricao":"Um suculento patty de carne bovina, coberto com uma fatia generosa de queijo cheddar, alface fresca, tomate maduro e um molho especial que traz um toque de sabor inigualável. ",
+      "acompanhamentos": " Acompanha Chips e um guaraná lata ",
+      "image":"/images/burguer2.jpg"
+    },
+    {
+      "nome":"  Sabor especial",
+      "quantidade": "1",
+      "id": "4_burguerT",
+      "valor":"45,00",
+      "descricao":"Um suculento patty de carne bovina, coberto com uma fatia generosa de queijo cheddar, alface fresca, tomate maduro e um molho especial que traz um toque de sabor inigualável. ",
+      "acompanhamentos": " Acompanha Chips e um guaraná lata ",
+      "image":"/images/burguer2.jpg"
+    }
+]

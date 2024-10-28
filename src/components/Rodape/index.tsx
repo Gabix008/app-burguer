@@ -1,6 +1,6 @@
 import React from 'react'
 import ContainerRodape from './style'
-import logo from '../../images/logo.png'
+import logo from '/images/logo.png'
 type Props = {}
 
 const index = (props: Props) => {

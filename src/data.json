@@ -1,0 +1,41 @@
+
+[
+    {
+        "id": "1_burguer",
+        "quantidade":"1",
+        "categoria": "Hamburguers",
+        "image": "/images/burguer.jpg",
+        "valor": "10,00",
+        "nome": "Hamburguer de picanha",
+        "descricao": "Um hamburguer de picanha suculento com toque de bacon e queijo cheddar, coberto com uma fatia generosa de queijo cheddar, alface fresca, tomate maduro e um molho especial que traz um toque de sabor inigualável. "
+    },
+    {
+        "id":"2_burguer",
+        "quantidade":"1",
+        "categoria": "Hamburguers",
+        "image": "/images/burguer2.jpg",
+        "valor": "10,00",
+        "nome": "Hamburguer de costela",
+        "descricao": "Um hamburguer de costela bovina suculento com toque de bacon e queijo cheddar, coberto com uma fatia generosa de queijo cheddar, alface fresca, tomate maduro e um molho especial que traz um toque de sabor inigualável. "
+    },
+    {
+        "id": "3_burguer",
+        "quantidade": "1",
+        "categoria": "Hamburguers",
+        "image": "/images/burguer.jpg",
+        "valor": "10,00",
+        "nome": "Hamburguer de bacon",
+        "descricao": "Hamburguer com bacon, com um toque de veganismo e queijo cheddar, coberto com uma fatia generosa de queijo cheddar, alface fresca, tomate maduro e um molho especial que traz um toque de sabor inigualável. "
+    },
+    {
+        "id": "4_burguer",
+        "quantidade": "1",
+        "categoria": "Hamburguers",
+        "image": "/images/burguer1.jpg",
+        "valor": "10,00",
+        "nome": "Hamburguer de picanha",
+        "descricao": "Hamburguer com bacon, com um toque de veganismo e queijo cheddar, coberto com uma fatia generosa de queijo cheddar, alface fresca, tomate maduro e um molho especial que traz um toque de sabor inigualável. "
+    }
+
+]
+

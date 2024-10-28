@@ -4,8 +4,8 @@ const Component = styled.div`
 
 h1{
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    /* margin-bottom: 5px; */
     color: #FF3131;
     text-transform: uppercase;
     /* font-family: Bebas Neue; */
@@ -23,6 +23,7 @@ img{
     margin-top: 25px;
     margin: 0 auto;
     padding: 0; 
+    margin-bottom: 50px;
 }
 
 .container{
@@ -50,7 +51,7 @@ img{
 .btn-burguer{
     margin-top: 5%;
     margin-left: 35%;
-
+    cursor: pointer;
 }
 span{
     color: #F9AF42;
@@ -89,9 +90,17 @@ span{
   border-radius:10px;
   width: 45%;
   height: 100%;
+  margin-bottom: 55px;
   object-fit: cover;
 }
 
+.mySwiper img{
+    width: 30%;
+}
+
+.link{
+    text-decoration: none;
+}
 `
 
 export default Component;

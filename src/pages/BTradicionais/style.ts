@@ -5,7 +5,6 @@ const Component = styled.div`
 h1{
     text-align: center;
     margin-top: 35px;
-    margin-bottom: 15px;
     color: #FF3131;
     text-transform: uppercase;
     font-weight: bolder;
@@ -46,7 +45,6 @@ h1{
     width: 55%;
     margin: 0 auto;
     grid-template-columns: repeat(2, 2fr); 
-    /* margin-bottom: 55px; */
     gap:17px;
 }
 
@@ -90,6 +88,14 @@ img{
     width: 375px;
     margin: 15px;
     border-radius: 10px;
+}
+
+.mySwiper img{
+    width: 30%;
+}
+
+.mySwiper{
+    margin-bottom: 55px;
 }
 `
 export default Component;
